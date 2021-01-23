@@ -77,14 +77,14 @@
 			"origin.core.module": "módulo principal de solo lectura"
 		},
 		"node_modules\\vscode-chrome-debug-core\\out/src/errors": {
-			"eval.not.available": "No disponible",
-			"not.connected": "sin conexión al entorno de ejecución",
+			"eval.not.available": "Non dispoñíbel",
+			"not.connected": "sen conexión co motor de execución",
 			"restartFrame.cannot": "No se puede reiniciar el marco",
 			"attribute.path.not.exist": "El atributo \"{0}\" no existe (\"{1}\").",
 			"attribute.path.not.absolute": "El atributo \"{0}\" no es absoluto (\"{1}\"). Pruebe a agregar \"{2}\" como prefijo para hacerlo absoluto.",
-			"more.information": "Más información",
+			"more.information": "Máis información",
 			"setVariable.error": "No se admite el valor de configuración.",
-			"source.not.found": "No se pudo recuperar el contenido.",
+			"source.not.found": "Non foi posíbel recuperar o contido.",
 			"VSND2010": "No se puede conectar al proceso en tiempo de ejecución, el tiempo de espera se agota después de {0} ms (motivo: {1}).",
 			"VSND2023": "No hay ninguna pila de llamadas disponible.",
 			"failed.to.read.port": "No se ha podido leer el archivo {dataDirPath}, {error}",
@@ -99,8 +99,8 @@
 			"invalidHitCondition": "Condición de acierto no válida: {0}"
 		},
 		"node_modules\\vscode-chrome-debug-core\\out/src/chrome/chromeDebugAdapter": {
-			"exceptions.all": "Todas las excepciones",
-			"exceptions.uncaught": "Excepciones no detectadas",
+			"exceptions.all": "Todas as excepcións",
+			"exceptions.uncaught": "Excepcións non detectadas",
 			"exceptions.promise_rejects": "Rechazos de Promise"
 		},
 		"node_modules\\vscode-chrome-debug-core\\out/src/chrome/chromeTargetDiscoveryStrategy": {

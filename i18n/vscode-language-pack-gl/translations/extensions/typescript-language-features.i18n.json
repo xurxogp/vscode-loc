@@ -11,7 +11,7 @@
 		"package": {
 			"displayName": "Características da linguaxe JavaScript e TypeScript",
 			"description": "Prove soporte de lenguaje enriquecido para JavaScript y TypeScript.",
-			"reloadProjects.title": "Volver cargar o proxecto",
+			"reloadProjects.title": "Cargar de novo o proxecto",
 			"configuration.typescript": "TypeScript",
 			"configuration.suggest.completeFunctionCalls": "Complete las funciones con la signatura de parámetro.",
 			"configuration.suggest.includeAutomaticOptionalChainCompletions": "Habilite/deshabilite la visualización de terminaciones en valores potencialmente indefinidos que insertan una llamada en cadena opcional. Requiere TS 3.7+ y que las comprobaciones estrictas de elementos nulos.estén habilitadas.",
@@ -146,9 +146,9 @@
 		"dist/utils/tsconfig": {
 			"typescript.configureTsconfigQuickPick": "Configurar tsconfig.json",
 			"typescript.configureJsconfigQuickPick": "Configurar jsconfig.json",
-			"typescript.noTypeScriptProjectConfig": "El archivo no forma parte de un proyecto de TypeScript. Haga clic [aquí]({0}) para obtener más información.",
-			"typescript.noJavaScriptProjectConfig": "El archivo no forma parte de un proyecto de JavaScript. Haga clic [aquí]({0}) para obtener más información.",
-			"typescript.projectConfigNoWorkspace": "Abra una carpeta en VS Code para usar un proyecto de TypeScript o JavaScript",
+			"typescript.noTypeScriptProjectConfig": "O ficheiro non pertence a ningún proxecto de TypeScript. Prema [aquí]({0}) para obter máis información.",
+			"typescript.noJavaScriptProjectConfig": "O ficheiro non pertence a ningún proxecto de JavaScript. Prema [aquí]({0}) para obter máis información.",
+			"typescript.projectConfigNoWorkspace": "Abra un cartafol no VS Code para usar un proxecto de TypeScript ou JavaScript",
 			"typescript.projectConfigUnsupportedFile": "No se pudo determinar el proyecto de TypeScript o JavaScript. Tipo de archivo no compatible",
 			"typescript.projectConfigCouldNotGetInfo": "No se pudo determinar el proyecto de TypeScript o JavaScript"
 		},

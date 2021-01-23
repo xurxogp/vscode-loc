@@ -144,7 +144,7 @@
 			"scope.script": "Script"
 		},
 		"dist/node/nodeV8Protocol": {
-			"not.connected": "sin conexión al entorno de ejecución",
+			"not.connected": "sen conexión co motor de execución",
 			"runtime.unresponsive": "se canceló porque Node.js no responde",
 			"runtime.timeout": "tiempo de espera agotado transcurridos {0} ms"
 		},
