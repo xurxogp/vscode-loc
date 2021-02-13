@@ -9,8 +9,8 @@
 	"version": "1.0.0",
 	"contents": {
 		"package": {
-			"add.browser.breakpoint": "Agregar punto de interrupción del explorador",
-			"attach.node.process": "Adjuntar al proceso de nodo (versión preliminar)",
+			"add.browser.breakpoint": "Engadir punto de interrupción do navegador",
+			"attach.node.process": "Anexar ao proceso do Node (versión preliminar)",
 			"base.cascadeTerminateToConfigurations.label": "Lista de sesiones de depuración que también se detendrán cuando se termine esta sesión de depuración.",
 			"browser.address.description": "La dirección IP o el nombre de host donde escucha el explorador depurado.",
 			"browser.attach.port.description": "Puerto para usar con la depuración remota del explorador, indicado como \"--remote-debugging-port\" al iniciar el explorador.",
@@ -44,10 +44,10 @@
 			"browser.userDataDir.description": "De forma predeterminada, el explorador se inicia con un perfil de usuario independiente en una carpeta temporal. Utilice esta opción para invalidarlo. Establézcalo en false para iniciar con su perfil de usuario predeterminado.",
 			"browser.vueComponentPaths": "Lista de patrones globales de archivos para buscar componentes \"*.vue\". De forma predeterminada, busca en el área de trabajo al completo. Esto debe especificarse, debido a las búsquedas adicionales que los mapas de origen de Vue requieren en la CLI de Vue 4. Para deshabilitar este tratamiento especial, establézcalo en una matriz vacía.",
 			"browser.webRoot.description": "Especifica la ruta de acceso absoluta del área de trabajo a la raíz del servidor web. Se usa para resolver rutas de acceso del tipo \"/app.js\" a archivos del disco. Forma abreviada para la asignación de rutas de acceso con \"/\".",
-			"chrome.attach.description": "Adjuntar a una instancia de Chrome ya en modo de depuración",
-			"chrome.attach.label": "Chrome: Asociar",
+			"chrome.attach.description": "Anexar a unha instancia do Chrome xa no modo de depuración",
+			"chrome.attach.label": "Chrome: Anexar",
 			"chrome.label": "Chrome (versión preliminar)",
-			"chrome.launch.description": "Inicie Chrome para depurar una URL",
+			"chrome.launch.description": "Inicie Chrome para depurar un URL",
 			"chrome.launch.label": "Chrome: Inicio",
 			"configuration.autoAttachMode": "Configura los procesos que se van a asociar y a depurar automáticamente cuando \"#debug.node.autoAttach#\" esté activado. Un proceso de Node iniciado con la marca \"--inspect\" se asociará siempre, independientemente de esta configuración.",
 			"configuration.autoAttachMode.always": "Asocia automáticamente a todos los procesos de Node.js iniciados en el terminal.",
@@ -111,22 +111,22 @@
 			"node.attach.processId.description": "Identificador del proceso al que se va a asociar.",
 			"node.attach.restart.description": "Intente volver a conectarse al programa si se pierde la conexión. Si se establece en \"true\", se intentará una vez por segundo, para siempre. En su lugar, puede personalizar el intervalo y el número máximo de intentos mediante la especificación de los valores \"delay\" y \"maxAttempts\" en un objeto.",
 			"node.attachSimplePort.description": "Si se establece, se asocia al proceso a través del puerto especificado. Esto generalmente ya no es necesario en programas de Node.js y pierde la capacidad de depurar los procesos secundarios. Sin embargo, puede ser útil en escenarios más esotéricos, como en los lanzamientos de Deno y Docker. Si se establece en 0, se elegirá un puerto aleatorio y se agregará --inspect-brk a los argumentos de inicio de forma automática.",
-			"node.console.title": "Consola de depuración de Node",
-			"node.disableOptimisticBPs.description": "No establezca puntos de interrupción en ningún archivo hasta que se haya cargado un mapa de origen para el archivo.",
+			"node.console.title": "Consola de depuración do Node",
+			"node.disableOptimisticBPs.description": "Non defina puntos de interrupción en ningún ficheiro até que estea cargado un mapa de orixe nese ficheiro.",
 			"node.label": "Node.js (versión preliminar)",
-			"node.launch.args.description": "Argumentos de la línea de comandos que se pasan al programa.",
-			"node.launch.autoAttachChildProcesses.description": "Asociar automáticamente el depurador a los procesos secundarios nuevos.",
+			"node.launch.args.description": "Argumentos da liña de ordes a pasar ao programa.",
+			"node.launch.autoAttachChildProcesses.description": "Anexar automaticamente o depurador aos proceso secundarios novos.",
 			"node.launch.config.name": "Iniciar",
-			"node.launch.console.description": "Lugar donde debe iniciarse el destino de depuración.",
-			"node.launch.console.externalTerminal.description": "Terminal externo que puede configurarse desde Configuración del usuario.",
-			"node.launch.console.integratedTerminal.description": "Terminal integrado de VS Code",
-			"node.launch.console.internalConsole.description": "Consola de depuración de VS Code (que no admite la lectura de entradas de un programa)",
+			"node.launch.console.description": "Lugar onde ten de iniciarse o destino de depuración.",
+			"node.launch.console.externalTerminal.description": "Terminal externo que pode ser configurado dende a Configuración do usuario.",
+			"node.launch.console.integratedTerminal.description": "Terminal integrado do VS Code",
+			"node.launch.console.internalConsole.description": "Consola de depuración do VS Code (que no admite la lectura de entradas de un programa)",
 			"node.launch.cwd.description": "Ruta de acceso absoluta al directorio de trabajo del programa que se está depurando.",
-			"node.launch.env.description": "Variables de entorno pasadas al programa. El valor \"null\" elimina la variable del entorno.",
-			"node.launch.envFile.description": "Ruta de acceso absoluta a un archivo que contiene definiciones de variables de entorno.",
+			"node.launch.env.description": "Variábeis de ambiente pasadas ao programa. O valor \"null\" elimina a variábel de ambiente.",
+			"node.launch.envFile.description": "Ruta absoluta a un ficheiro que contén definicións de variábeis de ambiente.",
 			"node.launch.logging": "Configuración de registro",
-			"node.launch.logging.cdp": "Ruta al archivo de registro para los mensajes del protocolo DevTools de Chrome",
-			"node.launch.logging.dap": "Ruta de acceso al archivo de registro para los mensajes del Protocolo de adaptador de depuración",
+			"node.launch.logging.cdp": "Ruta ao ficheiro de rexistro para as mensaxes do protocolo DevTools do Chrome",
+			"node.launch.logging.dap": "Ruta ao ficheiro de rexistro para as mensaxes do Debug Adapter Protocol",
 			"node.launch.outputCapture.description": "Ubicación desde donde se van a capturar los mensajes de salida: la API de depuración predeterminada si se establece en \"console\" o las secuencias stdout/stderr si se establece en \"std\".",
 			"node.launch.program.description": "Ruta de acceso absoluta al programa. El valor generado se infiere de package.json y de los archivos abiertos. Edite este atributo.",
 			"node.launch.restart.description": "Pruebe a reiniciar el programa si se cierra un código de salida distinto de cero.",
@@ -163,7 +163,7 @@
 			"node.snippet.remoteattach.description": "Adjuntar al puerto de depuración de un programa de nodo remoto",
 			"node.snippet.remoteattach.label": "Node.js: adjuntar a programa remoto",
 			"node.snippet.yo.description": "Depurar generador de Yeoman (se instala ejecutando \"npm link\" en la carpeta del proyecto).",
-			"node.snippet.yo.label": "Node.js: generador de Yeoman",
+			"node.snippet.yo.label": "Node.js: xerador do Yeoman",
 			"node.sourceMapPathOverrides.description": "Un conjunto de mapeos para reescribir las localizaciones de los ficheros fuente con lo que los mapas fuente indican, a sus ubicaciones en disco.",
 			"node.sourceMaps.description": "Se usan los mapas de origen de JavaScript (si existen).",
 			"node.stopOnEntry.description": "El programa se detiene automáticamente tras el inicio.",
@@ -172,10 +172,10 @@
 			"node.websocket.address.description": "Dirección de WebSocket exacta a la que se va a asociar. Si no se especifica, se detectará a partir de la dirección y el puerto.",
 			"outFiles.description": "Si los mapas de origen están habilitados, estos patrones globales especifican los archivos JavaScript generados. Si un patrón comienza con '!' los archivos se excluyen. Si no se especifica, el código generado se espera en el mismo directorio que su origen.",
 			"pretty.print.script": "Bastante impresión para depuración",
-			"profile.start": "Tomar el perfil de rendimiento",
-			"profile.stop": "Detener el perfil de rendimiento",
-			"remove.browser.breakpoint": "Eliminar punto de interrupción del explorador",
-			"remove.browser.breakpoint.all": "Eliminar todos los puntos de interrupción del navegador",
+			"profile.start": "Iniciar o perfil de rendemento",
+			"profile.stop": "Deter o perfil de rendemento",
+			"remove.browser.breakpoint": "Eliminar punto de interrupción do navegador",
+			"remove.browser.breakpoint.all": "Eliminar todos os puntos de interrupción do navegador",
 			"skipFiles.description": "Una matriz de patrones globales para que los archivos omitan al depurar. El patrón \"<node_internals>/**\" coincide con todos los módulos internos de Node.js.",
 			"smartStep.description": "Explore automáticamente el código generado que no se puede volver a asignar al código fuente original.",
 			"start.with.stop.on.entry": "Iniciar depuración y detenerla tras el inicio",
@@ -187,57 +187,57 @@
 			"toggle.skipping.this.file": "Cambiar y omitir este archivo",
 			"trace.boolean.description": "El seguimiento se puede establecer en \"true\" para escribir registros de diagnóstico en el disco.",
 			"trace.console.description": "Configura si los registros también se devuelven a la consola de depuración.",
-			"trace.description": "Configura qué salida de diagnóstico se produce.",
-			"trace.level.description": "Configura el nivel de registros registrados.",
-			"trace.logFile.description": "Configura dónde se escriben los registros de disco.",
+			"trace.description": "Configura a saída de diagnose a producir.",
+			"trace.level.description": "Configura o nivel de rexistros.",
+			"trace.logFile.description": "Configura onde escribir os rexistros no disco.",
 			"trace.stdio.description": "Si desea devolver datos de seguimiento desde la aplicación o el explorador iniciados.",
-			"trace.tags.description": "Configura qué tipos de registros se registran."
+			"trace.tags.description": "Configura os tipos de rexistro a rexistrar."
 		},
 		"/src/binder": {
-			"breakpoint.provisionalBreakpoint": "Punto de interrupción sin enlazar"
+			"breakpoint.provisionalBreakpoint": "Punto de interrupción sen anexar"
 		},
 		"/src/debugServer": {
-			"breakpoint.provisionalBreakpoint": "Punto de interrupción sin enlazar"
+			"breakpoint.provisionalBreakpoint": "Punto de interrupción sen anexar"
 		},
 		"/src/vsDebugServer": {
-			"session.rootSessionName": "Adaptador de depuración de JavaScript"
+			"session.rootSessionName": "Adaptador de depuración do JavaScript"
 		},
 		"/src/adapter/customBreakpoints": {
-			"breakpoint.webglErrorNamed": "Error de WebGL \"{0}\"",
-			"breakpoint.webglErrorNamedDetails": "En pausa por un punto de interrupción de instrumentación de error de WebGL, error \"{0}\"",
-			"breakpoint.cspViolationNamed": "Infracción de CSP \"{0}\"",
-			"breakpoint.cspViolationNamedDetails": "En pausa por un punto de interrupción de instrumentación de infracción de la directiva de seguridad de contenido, directiva \"{0}\"",
-			"breakpoint.instrumentationNamed": "En pausa por un punto de interrupción de instrumentación \"{0}\"",
-			"breakpoint.eventListenerNamed": "En pausa por un punto de interrupción de escucha de eventos \"{0}\", desencadenado en \"{1}\"",
+			"breakpoint.webglErrorNamed": "Erro de WebGL \"{0}\"",
+			"breakpoint.webglErrorNamedDetails": "En pausa no punto de interrupción de instrumentación do erro de WebGL, erro \"{0}\"",
+			"breakpoint.cspViolationNamed": "Violación de CSP \"{0}\"",
+			"breakpoint.cspViolationNamedDetails": "En pausa no punto de interrupción de instrumentación de violación da política de seguranza de contido, directiva \"{0}\"",
+			"breakpoint.instrumentationNamed": "En pausa no punto de interrupción de instrumentación \"{0}\"",
+			"breakpoint.eventListenerNamed": "En pausa no punto de interrupción \"{0}\" do oínte de eventos, disparado en \"{1}\"",
 			"breakpoint.requestAnimationFrame": "Solicitar fotograma de animación",
-			"breakpoint.cancelAnimationFrame": "Cancelar el fotograma de animación",
+			"breakpoint.cancelAnimationFrame": "Cancelar o fotograma de animación",
 			"breakpoint.animationFrameFired": "Fotograma de animación activado",
-			"breakpoint.createCanvasContext": "Crear contexto del lienzo",
-			"breakpoint.webglErrorFired": "Error de WebGL desencadenado",
-			"breakpoint.webglWarningFired": "Advertencia de WebGL desencadenada",
-			"breakpoint.scriptFirstStatement": "Primera instrucción del script",
-			"breakpoint.cspViolation": "Script bloqueado por la directiva de seguridad de contenido",
-			"breakpoint.setInnerHtml": "Establecer innerHTML",
+			"breakpoint.createCanvasContext": "Crear contexto de lenzo",
+			"breakpoint.webglErrorFired": "Erro de WebGL disparado",
+			"breakpoint.webglWarningFired": "Aviso de WebGL disparado",
+			"breakpoint.scriptFirstStatement": "Primeira instrución do script",
+			"breakpoint.cspViolation": "Script bloqueado pola política de seguranza de contido",
+			"breakpoint.setInnerHtml": "Definir innerHTML",
 			"breakpoint.setTimeoutFired": "setTimeout activado",
 			"breakpoint.setIntervalFired": "setInterval activado",
 			"breakpoint.createAudioContext": "Crear AudioContext",
-			"breakpoint.closeAudioContext": "Cerrar AudioContext",
-			"breakpoint.resumeAudioContext": "Reanudar AudioContext",
+			"breakpoint.closeAudioContext": "Pechar AudioContext",
+			"breakpoint.resumeAudioContext": "Continuar AudioContext",
 			"breakpoint.suspendAudioContext": "Suspender AudioContext"
 		},
 		"/src/adapter/debugAdapter": {
-			"breakpoint.caughtExceptions": "Excepciones detectadas",
-			"breakpoint.uncaughtExceptions": "Excepciones no detectadas",
-			"`errors.setExceptionBreakpoints.async.failed`": "No se pudieron configurar las excepciones que se deben pausar debido a: {0}",
-			"errors.unknown": "Error desconocido",
-			"error.sourceNotFound": "No se encontró el código fuente",
-			"error.sourceContentDidFail": "No se puede recuperar el contenido de origen",
-			"error.variableNotFound": "No se encontró la variable",
-			"error.threadNotFound": "No se encontró el subproceso",
-			"error.cannotPrettyPrint": "No se pueden imprimir con sangría"
+			"breakpoint.caughtExceptions": "Excepcións detectadas",
+			"breakpoint.uncaughtExceptions": "Excepcións non detectadas",
+			"`errors.setExceptionBreakpoints.async.failed`": "Non foi posíbel configurar as excepcións que se teñen que por en pausa por mor de: {0}",
+			"errors.unknown": "Erro descoñecido",
+			"error.sourceNotFound": "Non se atopou o código fonte",
+			"error.sourceContentDidFail": "Non é posíbel recuperar o contido de orixe",
+			"error.variableNotFound": "Non se atopou a variábel",
+			"error.threadNotFound": "Non se atopou o subproceso",
+			"error.cannotPrettyPrint": "Non é posíbel imprimir con sangría"
 		},
 		"/src/adapter/sources": {
-			"source.skipFiles": "Omitido por skipFiles"
+			"source.skipFiles": "Ignorado por skipFiles"
 		},
 		"/src/adapter/stackTrace": {
 			"scope.global": "Global",
@@ -250,99 +250,99 @@
 			"scope.eval": "Eval",
 			"scope.module": "Módulo",
 			"scope.closureNamed": "Clausura ({0})",
-			"smartStepSkipLabel": "Omitido por smartStep",
-			"scope.returnValue": "Valor devuelto"
+			"smartStepSkipLabel": "Ignorado por smartStep",
+			"scope.returnValue": "Valor de retorno"
 		},
 		"/src/adapter/threads": {
-			"error.resumeDidFail": "No se puede reanudar",
-			"error.pauseDidFail": "No se puede pausar",
-			"error.stepOverDidFail": "No se puede realizar el paso siguiente",
-			"error.stepInDidFail": "No se puede entrar",
-			"error.stepOutDidFail": "No se puede salir",
-			"error.stackFrameNotFound": "No se encontró el marco de pila",
-			"error.evaluateOnAsyncStackFrame": "No se puede evaluar en un marco de pila asincrónica",
-			"error.restartFrameAsync": "No se puede reiniciar un fotograma asincrónico",
-			"reason.description.restart": "En pausa por una entrada de marco",
-			"error.threadNotPaused": "El subproceso no está en pausa",
-			"error.threadNotPausedOnException": "El subproceso no está en pausa por la excepción",
-			"error.evaluateDidFail": "No se puede evaluar",
-			"pause.breakpoint": "En pausa por un punto de interrupción",
+			"error.resumeDidFail": "Non é posíbel continuar",
+			"error.pauseDidFail": "Non é posíbel por en pausa",
+			"error.stepOverDidFail": "Non é posíbel realizar o paso seguinte",
+			"error.stepInDidFail": "Non é posíbel realizar a instrución",
+			"error.stepOutDidFail": "Non é posíbel saír da instrución",
+			"error.stackFrameNotFound": "Non se atopou o fotograma da pila",
+			"error.evaluateOnAsyncStackFrame": "Non é posíbel evaluar nun fotograma da pila asíncrona",
+			"error.restartFrameAsync": "Non é posíbel reiniciar un fotograma asíncrono",
+			"reason.description.restart": "En pausa na entrada do fotograma",
+			"error.threadNotPaused": "O subproceso non está en pausa",
+			"error.threadNotPausedOnException": "O subproceso non está en pausa na excepción",
+			"error.evaluateDidFail": "Non é posíbel evaluar",
+			"pause.breakpoint": "En pausa no punto de interrupción",
 			"pause.default": "En pausa",
-			"pause.assert": "En pausa por una aserción",
-			"pause.debugCommand": "En pausa por una llamada a debug()",
-			"pause.DomBreakpoint": "En pausa por un punto de interrupción de DOM",
-			"pause.exception": "En pausa por una excepción",
-			"pause.promiseRejection": "En pausa por rechazo de una promesa",
-			"pause.instrumentation": "En pausa por un punto de interrupción de instrumentación",
-			"pause.xhr": "En pausa por XMLHttpRequest o \"fetch\"",
-			"pause.oom": "En pausa antes de la excepción de memoria insuficiente",
-			"pause.eventListener": "En pausa por una escucha de eventos",
-			"warnings.handleSourceMapPause.didNotWait": "ADVERTENCIA: El procesamiento de mapas de origen de {0} tardó más de {1} ms, por lo que se siguió ejecutando sin esperar a que se establecieran todos los puntos de interrupción del script."
+			"pause.assert": "En pausa na aserción",
+			"pause.debugCommand": "En pausa na chamada a debug()",
+			"pause.DomBreakpoint": "En pausa no punto de interrupción de DOM",
+			"pause.exception": "En pausa na excepción",
+			"pause.promiseRejection": "En pausa no rexeitamento dunha promesa",
+			"pause.instrumentation": "En pausa no punto de interrupción de instrumentación",
+			"pause.xhr": "En pausa no XMLHttpRequest ou \"fetch\"",
+			"pause.oom": "En pausa antes da excepción de memoria insuficiente",
+			"pause.eventListener": "En pausa no oínte de eventos",
+			"warnings.handleSourceMapPause.didNotWait": "AVISO: O procesado de mapas de orixe de {0} levou máis de {1} ms, polo que continuou a execución sen agardar a que se estableceran todos os puntos de interrupción do script."
 		},
 		"/src/adapter/variables": {
-			"error.variableNotFound": "No se encontró la variable",
-			"error.emptyExpression": "No se puede establecer un valor vacío",
-			"error.invalidExpression": "Expresión no válida",
-			"error.setVariableDidFail": "No se puede establecer el valor de la variable",
+			"error.variableNotFound": "Non se atopou a variábel",
+			"error.emptyExpression": "Non é posíbel definir un valor baleiro",
+			"error.invalidExpression": "Expresión non válida",
+			"error.setVariableDidFail": "Non é posíbel definir o valor da variábel",
 			"error.unknown": "Erro descoñecido",
-			"error.customValueDescriptionGeneratorFailed": "{0} (no se puede describir: {1})"
+			"error.customValueDescriptionGeneratorFailed": "{0} (non é posíbel describir: {1})"
 		},
 		"/src/dap/errors": {
-			"NVS_HOME.not.found.message": "El atributo \"runtimeVersion\" requiere que se instale el administrador de versiones de Node.js \"nvs\" o \"nvm\".",
-			"NVM_HOME.not.found.message": "El atributo \"runtimeVersion\" requiere el administrador de versiones \"nvm-windows\" o \"nvs\" de Node.js.",
-			"runtime.version.not.found.message": "La versión de Node.js \"{0}\" no se instaló con el administrador de versiones {1}.",
-			"VSND2011": "No se puede iniciar el destino de depuración en el terminal ({0}).",
-			"VSND2029": "No se pueden cargar las variables de entorno del archivo ({0}).",
-			"runtime.node.notfound": "No se encuentra el binario de Node.js \"{0}\": {1}. Asegúrese de que Node.js esté instalado y en PATH, o bien establezca \"runtimeExecutable\" en launch.json.",
-			"runtime.node.outdated": "La versión de Node en \"{0}\" está obsoleta (versión {1}); se requiere Node 8. x como mínimo.",
-			"invalidHitCondition": "La condición de acierto \"{0}\" no es válida. Se esperaba una expresión como \"> 42\" o \"== 2\".",
-			"profile.error.generic": "Error al tomar un perfil del destino.",
-			"profile.error.concurrent": "Detenga el perfil en ejecución antes de iniciar uno nuevo.",
-			"noBrowserInstallFound": "No se encuentra ninguna instalación de {0} en el sistema. Pruebe a instalarlo o proporcione una ruta de acceso absoluta al explorador en \"runtimeExecutable\", en el archivo launch.json.",
-			"browserVersionNotFound": "No se encuentra {0} versión {1}. Las versiones detectadas automáticamente disponibles son: {2}. Puede establecer \"runtimeExecutable\" en launch.json en una de ellas o proporcionar una ruta de acceso absoluta al ejecutable del explorador.",
-			"error.browserLaunchError": "No se puede iniciar el explorador: \"{0}\"",
-			"error.browserAttachError": "No se puede asociar al explorador",
-			"error.threadNotFound": "No se encontró la página de destino. Puede que tenga que actualizar el valor de \"urlFilter\" para que coincida con el de la página que quiere depurar.",
-			"asyncScopesNotAvailable": "Variables no disponibles en las pilas asincrónicas",
-			"breakpointSyntaxError": "Error de sintaxis al establecer el punto de interrupción con la condición {0} en la línea {1}: {2}",
-			"sourcemapParseError": "No se pudo leer el mapa de origen de {0}: {1}"
+			"NVS_HOME.not.found.message": "O atributo \"runtimeVersion\" require da instalación do administrador de versións do Node.js \"nvs\" o \"nvm\".",
+			"NVM_HOME.not.found.message": "O atributo \"runtimeVersion\" require do administrador de versións \"nvm-windows\" ou \"nvs\" do Node.js.",
+			"runtime.version.not.found.message": "A versión do Node.js \"{0}\" non foi instalada a través do administrador de versións {1}.",
+			"VSND2011": "Non é posíbel iniciar o destino de depuración no terminal ({0}).",
+			"VSND2029": "Non é posíbel cargar as variábeis de ambiente do ficheiro ({0}).",
+			"runtime.node.notfound": "Non é posíbel atopar o binario \"{0}\" do Node.js: {1}. Asegúrese de que Node.js estea instalado e no PATH, ou defina \"runtimeExecutable\" no launch.json.",
+			"runtime.node.outdated": "A versión do Node en \"{0}\" está desactualizada (versión {1}), requírese como mínimo o Node 8.x.",
+			"invalidHitCondition": "A condición \"{0}\" non é válida. Agardábase unha como \"> 42\" ou \"== 2\".",
+			"profile.error.generic": "Produciuse un erro ao tomar un perfil do destino.",
+			"profile.error.concurrent": "Ten de deter o perfil en execución antes de iniciar un de novo.",
+			"noBrowserInstallFound": "Non é posíbel atopar ningunha instalación de {0} no sistema. Tento instalalo ou forneza unha ruta absoluta para o navegador en \"runtimeExecutable\", no ficheiro launch.json.",
+			"browserVersionNotFound": "Non se atopa o {0} versión {1}. As versións detectadas automaticamente dispoñíbeis son: {2}. Pode definir \"runtimeExecutable\" no launch.json para unha desas versións ou fornecer unha ruta absoluta para o executábel do navegador.",
+			"error.browserLaunchError": "Non é posíbel iniciar o navegador: \"{0}\"",
+			"error.browserAttachError": "Non é posíbel anexar ao navegador",
+			"error.threadNotFound": "Non se atopou a páxina de destino. É posíbel que teña de actualizar o valor de \"urlFilter\" para que coincida co da páxina que desexa depurar.",
+			"asyncScopesNotAvailable": "Variábeis non dispoñíbeis nas pilas asíncronas",
+			"breakpointSyntaxError": "Erro de sintaxe ao definir o punto de interrupción coa condición {0} na liña {1}: {2}",
+			"sourcemapParseError": "Non foi posíbel ler o mapa de orixe de {0}: {1}"
 		},
 		"/src/ui/autoAttach": {
 			"details": "Detalles"
 		},
 		"/src/ui/companionBrowserLaunch": {
-			"cannotDebugInBrowser": "No se puede iniciar ningún explorador en modo de depuración desde aquí. Abra el área de trabajo en VS Code en el escritorio para habilitar la depuración."
+			"cannotDebugInBrowser": "Non é posíbel iniciar un navegador no modo de depuración dende aquí. Abra o espazo de traballo no VS Code para habilitar a depuración."
 		},
 		"/src/ui/debugLinkUI": {
 			"debugLink.invalidUrl": "O URL fornecido non é válido.",
 			"yes": "Si",
 			"never": "Nunca",
-			"debugLink.savePrompt": "¿Desea guardar una configuración en el archivo launch.json para un acceso fácil más adelante?",
+			"debugLink.savePrompt": "Desexa gardar unha configuración no ficheiro launch.json para un acceso fácil máis adiante?",
 			"no": "Non"
 		},
 		"/src/ui/debugNpmScript": {
-			"debug.npm.noWorkspaceFolder": "Debe abrir una carpeta de área de trabajo para depurar scripts npm.",
-			"debug.npm.parseError": "No se pudo leer {0}: {1}",
-			"debug.npm.noScripts": "No se han encontrado scripts npm en su package.json",
+			"debug.npm.noWorkspaceFolder": "Ten de abrir un cartafol de espazo de traballo para depurar scripts npm.",
+			"debug.npm.parseError": "Non foi posíbel ler {0}: {1}",
+			"debug.npm.noScripts": "Non se atoparon scripts npm non seu package.json",
 			"debug.npm.notFound.open": "Editar package.json"
 		},
 		"/src/ui/debugTerminalUI": {
-			"terminal.cwdpick": "Seleccione el directorio de trabajo actual para el nuevo terminal"
+			"terminal.cwdpick": "Seleccione o directorio de traballo actual para o novo terminal"
 		},
 		"/src/ui/disableSourceMapUI": {
 			"always": "Sempre",
 			"yes": "Si",
-			"disableSourceMapUi.msg": "Esta es una ruta de acceso de archivo ausente a la que hace referencia una mapa de origen. ¿Quiere depurar la versión compilada en su lugar?",
+			"disableSourceMapUi.msg": "Esta é unha ruta de ficheiro ausente referenciada por un mapa de orixe. Desexa depurar a versión compilada?",
 			"no": "Non"
 		},
 		"/src/ui/experimentEnlist": {
-			"experimentEnlist": "Puede desactivar el nuevo depurador con el valor \"debug.javascript.usePreview\". Infórmenos si tiene cualquier problema. Gracias por probar."
+			"experimentEnlist": "Pode deshabilitar o novo depurador mediate o valor \"debug.javascript.usePreview\". Infórmenos se ten problemas. Grazas por probalo."
 		},
 		"/src/ui/longPredictionUI": {
-			"longPredictionWarning.message": "Los puntos de interrupción están tardando en configurarse. Puede acelerarlo actualizando \"outFiles\" en su archivo launch.json.",
+			"longPredictionWarning.message": "A configuración dos puntos de interrupción está a tardar un pouco. Pode acelerar isto actualizando \"outFiles\" no seu ficheiro launch.json.",
 			"longPredictionWarning.open": "Abrir launch.json",
-			"longPredictionWarning.disable": "No volver a mostrar",
-			"longPredictionWarning.noFolder": "No hay ninguna carpeta del área de trabajo abierta."
+			"longPredictionWarning.disable": "Non amosar de novo",
+			"longPredictionWarning.noFolder": "Non hai ningún cartafol do espazo de traballo aberto."
 		},
 		"/src/ui/npmScriptLens": {
 			"codelens.debug": "Depuración de {0}"
@@ -353,71 +353,71 @@
 			"never": "Nunca"
 		},
 		"/src/ui/processPicker": {
-			"process.id.error": "Asociar al proceso: '{0}' no parece un id de proceso.",
-			"process.picker.error": "Falló el selector de proceso ({0})",
-			"pickNodeProcess": "Seleccione el proceso node. js para adjuntarlo a",
-			"process.id.port.signal": "Id. del proceso: {0}, puerto de depuración: {1} ({2})",
-			"process.id.signal": "Id. del proceso: {0} ({1})",
-			"cannot.enable.debug.mode.error": "Asociar al proceso: no se puede habilitar el modo de depuración para el proceso '{0}' ({1})."
+			"process.id.error": "Anexar ao proceso: '{0}' non semella un id de proceso.",
+			"process.picker.error": "Fallou o selector de proceso ({0})",
+			"pickNodeProcess": "Seleccione o proceso node.js para anexar",
+			"process.id.port.signal": "ID do proceso: {0}, porto de depuración: {1} ({2})",
+			"process.id.signal": "ID do proceso: {0} ({1})",
+			"cannot.enable.debug.mode.error": "Anexar ao proceso: non é posíbel habilitar o modo de depuración para o proceso '{0}' ({1})."
 		},
 		"/src/ui/terminalLinkHandler": {
-			"terminalLinkHover.debug": "Depurar dirección URL",
-			"cantOpenChromeOnWeb": "No se puede iniciar ningún explorador en modo de depuración desde aquí. Si quiere depurar esta página web, abra el área de trabajo desde VS Code en el escritorio."
+			"terminalLinkHover.debug": "Depurar enderezo URL",
+			"cantOpenChromeOnWeb": "Non é posíbel iniciar un navegador no modo de depuración dende aquí. Se quere depurar esta páxina web, abra o espazo de traballo no VS Code."
 		},
 		"/src/adapter/breakpoints/userDefinedBreakpoint": {
-			"breakpoint.provisionalBreakpoint": "Punto de interrupción sin enlazar"
+			"breakpoint.provisionalBreakpoint": "Punto de interrupción sen ligar"
 		},
 		"/src/adapter/console/queryObjectsMessage": {
-			"queryObject.invalidObject": "Solo se pueden consultar objetos",
-			"queryObject.couldNotQuery": "No se pudo consultar el objeto proporcionado.",
-			"queryObject.errorPreview": "Se ha podido generar la vista previa: {0}"
+			"queryObject.invalidObject": "Só se poden consultar obxectos",
+			"queryObject.couldNotQuery": "Non se puido consultar o obxecto fornecido.",
+			"queryObject.errorPreview": "Foi posíbel xerar a vista previa: {0}"
 		},
 		"/src/adapter/console/textualMessage": {
-			"console.assert": "Error de aserción"
+			"console.assert": "Erro na declaración"
 		},
 		"/src/adapter/profiling/basicCpuProfiler": {
 			"profile.cpu.label": "Perfil de CPU",
-			"profile.cpu.description": "Genera un archivo .cpuprofile que se puede abrir en Chrome DevTools"
+			"profile.cpu.description": "Xera un ficheiro .cpuprofile que pode abrir no DevTools do Chrome"
 		},
 		"/src/targets/browser/browserAttacher": {
-			"chrome.targets.placeholder": "Seleccionar una pestaña",
-			"attach.cannotConnect": "No se puede conectar con el destino en {0}: {1}"
+			"chrome.targets.placeholder": "Seleccionar unha lapela",
+			"attach.cannotConnect": "Non é posíbel conectar ao destino en {0}: {1}"
 		},
 		"/src/targets/node/nodeAttacher": {
-			"node.attach.restart.message": "Se perdió la conexión con el elemento que se va a depurar; se volverá a conectar en {0} ms\r\n"
+			"node.attach.restart.message": "Perdeuse a conexión co elemento a depurar; a conectar de novo en {0} ms\r\n"
 		},
 		"/src/targets/node/nodeBinaryProvider": {
-			"runtime.node.notfound.enoent": "la ruta de acceso no existe",
-			"runtime.node.notfound.spawnErr": "error al obtener la versión: {0}"
+			"runtime.node.notfound.enoent": "A ruta non existe",
+			"runtime.node.notfound.spawnErr": "Produciuse un erro obtendo a versión: {0}"
 		},
 		"/src/targets/node/terminalProgramLauncher": {
-			"node.console.title": "Consola de depuración de Node"
+			"node.console.title": "Consola de depuración de Node.js"
 		},
 		"/src/ui/configuration/chromiumDebugConfigurationProvider": {
 			"existingBrowser.debugAnyway": "Depurar de todos modos",
-			"existingBrowser.alert": "Parece que ya se está ejecutando un explorador desde {0}. Ciérrelo antes de intentar la depuración; de lo contrario, es posible que VS Code posible no pueda conectarse a él.",
-			"existingBrowser.location.default": "una sesión de depuración antigua",
-			"existingBrowser.location.userDataDir": "el valor userDataDir configurado",
+			"existingBrowser.alert": "Semella que xa se esta a executar un navegador dende {0}. Pécheo antes de tentar depurar, en caso contrario é posíbel que o VS Code non poda conecta a el.",
+			"existingBrowser.location.default": "unha sesión de depuración antiga",
+			"existingBrowser.location.userDataDir": "o valor userDataDir configurado",
 			"cancel": "Cancelar",
 			"chrome.launch.name": "Iniciar Chrome para localhost"
 		},
 		"/src/ui/configuration/nodeDebugConfigurationProvider": {
 			"debug.terminal.label": "Crear terminal de depuración de JavaScript",
-			"node.launch.script": "Ejecutar el script: {0}",
-			"node.launch.currentFile": "Ejecutar el archivo actual"
+			"node.launch.script": "Executar o script: {0}",
+			"node.launch.currentFile": "Executar o ficheiro actual"
 		},
 		"/src/ui/configuration/nodeDebugConfigurationResolver": {
-			"program.not.found.message": "No se encuentra ningún programa para depurar.",
-			"node.launch.config.name": "Iniciar el programa",
-			"mern.starter.explanation": "La configuración de inicio del proyecto '{0}' fue creada. ",
-			"program.guessed.from.package.json.explanation": "La configuración de inicio fue creada basada en \"package.json\".",
-			"outFiles.explanation": "Ajusta modelos globales en los atributos ‘outFiles’ para cubrir el código JavaScript generado."
+			"program.not.found.message": "Non foi posíbel atopar un programa para depurar.",
+			"node.launch.config.name": "Iniciar o programa",
+			"mern.starter.explanation": "Creouse a configuración de inicio para o proxecto '{0}'.",
+			"program.guessed.from.package.json.explanation": "Creouse a configuración de inicio baseada en \"package.json\".",
+			"outFiles.explanation": "Axusta os patróns globais no atributo 'outFiles' para cubrir o código JavaScript xerado."
 		},
 		"/src/ui/profiling/breakpointTerminationCondition": {
-			"profile.termination.breakpoint.label": "Seleccionar un punto de interrupción",
-			"profile.termination.breakpoint.description": "Ejecutar hasta que se alcance un punto de interrupción específico",
-			"breakpointTerminationWarnSlow": "La generación de perfiles con los puntos de interrupción habilitados puede cambiar el rendimiento del código. Puede resultar útil validar los resultados con las condiciones de terminación \"duración\" o \"manual\".",
-			"breakpointTerminationWarnConfirm": "¡Entendido!"
+			"profile.termination.breakpoint.label": "Seleccionar punto de interrupción",
+			"profile.termination.breakpoint.description": "Executar até atinxir un punto de interrupción específico",
+			"breakpointTerminationWarnSlow": "A xeración de perfís cos puntos de interrupción habilitados pode mudar o rendemento do código. Pode ser útil validar os resultados coas condicións de terminación \"duration\" ou \"manual\".",
+			"breakpointTerminationWarnConfirm": "De acordo!"
 		},
 		"/src/ui/profiling/durationTerminationCondition": {
 			"profile.termination.duration.label": "Duración",
@@ -432,15 +432,15 @@
 			"profile.termination.duration.description": "Executar até deter de xeito manual"
 		},
 		"/src/ui/profiling/uiProfileManager": {
-			"profile.sessionState": "Generación de perfiles",
-			"profile.status.single": "$(loading) Hacer clic para detener la generación de perfiles ({0})",
-			"profile.status.default": "$(loading) Hacer clic para detener la generación de perfiles",
-			"profile.status.multiSession": "$(loading) Hacer clic para detener la generación de perfiles ({0} sesiones)",
+			"profile.sessionState": "Xeración de perfís",
+			"profile.status.single": "$(loading) Facer clic para deter a xeración de perfís ({0})",
+			"profile.status.default": "$(loading) Facer clic para deter a xeración de perfís",
+			"profile.status.multiSession": "$(loading) Facer clic para deter a xeración de perfís ({0} sesións)",
 			"yes": "Si",
 			"no": "Non",
-			"profile.alreadyRunning": "Ya se está ejecutando una sesión de generación de perfiles. ¿Quiere detenerla e iniciar una sesión nueva?",
+			"profile.alreadyRunning": "Xa está en execución unha sesión de xeración de perfís. Desexar detela e iniciar unha sesión nova?",
 			"profile.type.title": "Tipo de perfil:",
-			"profile.termination.title": "Tiempo que se va a ejecutar el perfil:"
+			"profile.termination.title": "Tempo no que se vai executar o perfil:"
 		},
 		"/src/ui/profiling/uiProfileSession": {
 			"profile.saving": "Gardando"

@@ -3192,23 +3192,23 @@
 			"backupErrorDetails": "Pruebe a guardar o revertir primero las ediciones incompletas y luego inténtelo de nuevo."
 		},
 		"vs/workbench/contrib/bulkEdit/browser/bulkEditService": {
-			"summary.0": "No se realizaron ediciones",
-			"summary.nm": "{0} ediciones de texto en {1} archivos",
-			"summary.n0": "{0} ediciones de texto en un archivo",
-			"workspaceEdit": "Edición del área de trabajo",
-			"nothing": "No se realizaron ediciones"
+			"summary.0": "Non se fixeron edicións",
+			"summary.nm": "{0} edicións de texto en {1} ficheiros",
+			"summary.n0": "{0} edicións de texto nun ficheiro",
+			"workspaceEdit": "Edición do espazo de traballo",
+			"nothing": "Non se fixeron edicións"
 		},
 		"vs/workbench/contrib/bulkEdit/browser/preview/bulkEdit.contribution": {
 			"overlap": "Se está previsualizando otra refactorización.",
 			"cancel": "Cancelar",
 			"continue": "Continuar",
-			"detail": "Pulse \"Continuar\" para descartar la refactorización anterior y continuar con la refactorización actual.",
+			"detail": "Prema \"Continuar\" para desbotar a refactorización anterior e continuar coa refactorización actual.",
 			"apply": "Aplicar refactorización",
 			"cat": "Vista previa de refactorización",
-			"Discard": "Descartar refactorización",
+			"Discard": "Desbotar refactorización",
 			"toogleSelection": "Alternar cambio",
-			"groupByFile": "Agrupar cambios por archivo",
-			"groupByType": "Agrupar cambios por tipo",
+			"groupByFile": "Agrupar trocos por ficheiro",
+			"groupByType": "Agrupar trocos por tipo",
 			"panel": "Vista previa de refactorización"
 		},
 		"vs/workbench/contrib/bulkEdit/browser/preview/bulkEditPane": {
@@ -3216,7 +3216,7 @@
 			"conflict.1": "No se puede aplicar la refactorización porque \"{0}\" ha cambiado mientras tanto.",
 			"conflict.N": "No se puede aplicar la refactorización porque {0} otros archivos han cambiado mientras tanto.",
 			"edt.title.del": "{0} (eliminar, refactorizar la vista previa)",
-			"rename": "Cambiar nombre",
+			"rename": "Renomear",
 			"create": "Crear",
 			"edt.title.2": "{0} ({1}, vista previa de refactorización)",
 			"edt.title.1": "{0} (previsualización de refactorización)"
@@ -3226,18 +3226,18 @@
 		},
 		"vs/workbench/contrib/bulkEdit/browser/preview/bulkEditTree": {
 			"bulkEdit": "Edición en masa",
-			"aria.renameAndEdit": "Cambiando el nombre de {0} a {1}, también haciendo ediciones de texto",
+			"aria.renameAndEdit": "Renomeando de {0} a {1}, también haciendo ediciones de texto",
 			"aria.createAndEdit": "Creando {0}, también editando texto",
 			"aria.deleteAndEdit": "Eliminando {0}, también realizando ediciones de texto",
 			"aria.editOnly": "{0}, editando el texto",
 			"aria.rename": "Cambiar el nombre de {0} a {1}",
 			"aria.create": "Creando {0}",
 			"aria.delete": "Eliminando {0}",
-			"aria.replace": "Línea {0}, reemplazando {1} por {2}",
-			"aria.del": "línea {0}, quitando {1}",
-			"aria.insert": "línea {0}, insertando {1}",
+			"aria.replace": "Liña {0}, substituindo {1} por {2}",
+			"aria.del": "liña {0}, quitando {1}",
+			"aria.insert": "liña {0}, inserindo {1}",
 			"rename.label": "{0} → {1}",
-			"detail.rename": "(cambio de nombre)",
+			"detail.rename": "(renomeado)",
 			"detail.create": "(creando)",
 			"detail.del": "(eliminando)",
 			"title": "{0} - {1}"
